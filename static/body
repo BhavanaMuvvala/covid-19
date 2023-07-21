@@ -1,0 +1,55 @@
+body {
+      font-family: 'Arimo', sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+    }
+    body{
+      background-color:rgb(0, 221, 255)
+    }
+
+    .login {
+      background-color: #fff;
+      padding: 20px;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .prediction {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
