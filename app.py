@@ -9,7 +9,7 @@ regmodel=pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
 def home():
-    return render_template(hello world)       
+    return render_template('19.html')       
 
 @app.route('/predict',methods=['POST'])
 def predict():
